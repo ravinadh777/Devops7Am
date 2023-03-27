@@ -24,3 +24,8 @@
    36  mvn complie
    37  mvun package
    38  mvn package
+   
+   
+    wget .....to download a resouce from internet
+    tree ......to display the structure of the resource format
+                                          
