@@ -1,0 +1,26 @@
+    13.wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+   14  ls
+   15  man tar
+   16  tar -xvf apache-maven-3.6.3-bin.tar.gz
+   17  ls
+   18  cd apache-maven-3.6.3
+   19  ll
+   20  history
+   21  yum install java-11 -y
+   22  yum install maven -y
+   23  java -version
+   24  mvn --version
+   25  mvn archetype:generate
+   26  ls
+   27  cd devops
+   28  ls -a
+   29  cat pom.xml
+   30  tree
+   31  yum install tree -y
+   32  tree
+   33  cat src/main/java/sai/App.java
+   34  cat src/test/java/sai/AppTest.java
+   35  tree
+   36  mvn complie
+   37  mvun package
+   38  mvn package
