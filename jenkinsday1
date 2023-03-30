@@ -3,7 +3,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
 #STEP-2: INSTALL JAVA
-amazon-linux-extras install java-openjdk11 -y
+yum install java-11 -y
 
 #STEP-3: INSTALL GIT MAVEN JENKINS 
 yum install git maven jenkins -y
